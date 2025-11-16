@@ -1,0 +1,24 @@
+theme = "tokyonight"
+
+[editor]
+line-number = "relative"  # Shows relative line numbers
+cursorline = true         # Highlights the current line
+color-modes = true        # Enables mode-specific cursor colors
+bufferline = "multiple"   # Shows all open buffers at the top
+auto-save = true          # Auto-save on focus loss
+
+[editor.cursor-shape]
+insert = "bar"            # Thin bar cursor in insert mode
+normal = "block"          # Block cursor in normal mode
+select = "underline"      # Underline cursor in select mode
+
+[editor.file-picker]
+hidden = false             # Show hidden files in file picker
+
+[editor.lsp]
+display-messages = true   # Show LSP messages
+display-inlay-hints = true # Show inlay hints (if supported by LSP)
+
+[keys.normal]
+C-s = ":w"                # Ctrl+s to save
+C-q = ":q"                # Ctrl+q to quit
